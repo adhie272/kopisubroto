@@ -49,13 +49,6 @@
                         <span id="cartCount" class="absolute -top-1 -right-1 bg-brand-maroon text-white text-xs font-bold rounded-full w-4 h-4 flex items-center justify-center text-[10px]">{{ $cartCount ?? 0 }}</span>
                     </button>
                 @endif
-                @auth
-                    @if(Auth::user()->role === 'admin')
-                        <a href="/admin/menu" class="bg-brand-brown px-5 py-2 rounded-xl text-xs font-bold text-white hover:bg-brand-brownDark transition">Admin</a>
-                    @endif
-                @else
-                    <a href="/login" class="bg-brand-brown px-5 py-2 rounded-xl text-xs font-bold text-white hover:bg-brand-brownDark transition">Admin</a>
-                @endauth
             </div>
         </div>
     </nav>
