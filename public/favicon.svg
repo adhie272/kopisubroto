@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bungee&amp;display=swap');
+      .emblem-text {
+        font-family: 'Bungee', cursive, sans-serif;
+        font-size: 340px;
+        fill: #5FA8A4;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+  </defs>
+  <!-- Outer Teal Circle with Parchment Border -->
+  <circle cx="256" cy="256" r="235" fill="#5FA8A4" stroke="#EDE6D6" stroke-width="20" />
+  <!-- Inner Parchment Circle -->
+  <circle cx="256" cy="256" r="118" fill="#EDE6D6" />
+  <!-- Center Text S -->
+  <text x="256" y="266" class="emblem-text">S</text>
+</svg>
